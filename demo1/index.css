@@ -1,0 +1,14 @@
+.box {
+	position: relative;
+}
+.box canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container {
+	/* 这种方式会拉伸画布
+	width: 600;
+	height: 600px; */
+	background-color: #eaeaea;
+}

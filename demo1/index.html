@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="./index.css">
+	</head>
+	<body>
+		<!-- 官方设置canvas的宽高样式，canvas默认宽高是300*150，
+		如果通过js设置，或者css设置宽高，会进行拉伸，导致画图不是期望的表现结果 -->
+		<!-- 详见：http://www.educity.cn/wenda/6825.html -->
+		<div class="box">
+			<canvas id="container" width="400" height="400" style="border: 1px solid #ccc"></canvas>
+			<canvas id="container_back" width="400" height="400" style="border: 1px solid #ccc"></canvas>
+		</div>
+		<script src="./jquery-3.1.1.min.js"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
