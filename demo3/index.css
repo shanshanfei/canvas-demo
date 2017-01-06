@@ -1,0 +1,12 @@
+.box {
+	position: relative;
+}
+.box canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: 1px solid #ccc;
+}
+#container {
+	background-color: #22a8a3;
+}
