@@ -1,3 +1,7 @@
+/*
+ * 铅笔芯游戏初版：重复画canvas_back，问题：画面闪烁，闪瞎了要
+ * demo4通过间歇改变canvas_back的top值，实现上下晃动
+ */
 $(function(){
 	var canvas = $('#container')[0];
 	var ctx = canvas.getContext('2d');

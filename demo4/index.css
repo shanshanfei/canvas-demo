@@ -1,0 +1,20 @@
+.box {
+	position: relative;
+	overflow: hidden;
+	width: 652px;
+	height: 802px;
+}
+.box canvas {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#container {
+	border: 1px solid #ccc;
+	background-color: #22a8a3;
+}
+#container_back {
+	/* 180 ~ 280*/
+	top: 160px;
+	left: -190px;
+}
